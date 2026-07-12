@@ -118,7 +118,6 @@ table.vocab thead th {
 }
 table.vocab tbody tr:hover { background: var(--surface-2); }
 table.vocab .term { font-weight: 700; white-space: nowrap; }
-table.vocab .term .ipa { display: block; font-weight: 400; font-size: 12.5px; color: var(--ink-soft); font-style: normal; margin-top: 3px; letter-spacing: .01em; }
 table.vocab .term .pos { display: block; font-weight: 400; font-size: 12px; color: var(--ink-faint); font-style: italic; margin-top: 1px; }
 table.vocab .kr { color: var(--accent); white-space: nowrap; }
 table.vocab .syn, table.vocab .ant { color: var(--ink-soft); font-size: 13.5px; }
