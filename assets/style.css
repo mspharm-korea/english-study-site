@@ -85,6 +85,8 @@ h1.title {
 .badge + .badge { border-left: 1px solid var(--rule); padding-left: 18px; }
 .source-link { color: var(--accent); font-size: 13.5px; text-decoration: none; border-bottom: 1px solid var(--rule); }
 .source-link:hover { border-bottom-color: var(--accent); }
+.views { font-size: 12px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .1em; font-weight: 700; margin-top: 16px; }
+.views b { color: var(--accent); font-weight: 800; }
 
 /* ---------- sections ---------- */
 section.block { padding: 34px 0 6px; border-top: 1px solid var(--rule); margin-top: 30px; }
