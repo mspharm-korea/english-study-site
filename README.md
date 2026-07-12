@@ -1,3 +1,3 @@
-# 영어스터디 (encrypted static site)
+# 영어회화 (encrypted static site)
 
 Passcode-protected (StatiCrypt).
