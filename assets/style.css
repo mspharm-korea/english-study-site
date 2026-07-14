@@ -126,6 +126,14 @@ table.vocab .kr { color: var(--accent); white-space: nowrap; }
 table.vocab .syn, table.vocab .ant { color: var(--ink-soft); font-size: 13.5px; }
 mark.hl { background: var(--hl); color: inherit; padding: 0 2px; }
 
+/* example-sentence rows (2 per word/expression), sit under their term row as one unit */
+table.vocab tr.has-ex > td { border-bottom: none; padding-bottom: 3px; }
+table.vocab tr.ex-row:hover { background: transparent; }
+table.vocab tr.ex-row > td { padding-top: 0; padding-bottom: 13px; padding-left: 0; }
+table.vocab .ex { display: block; font-size: 13.5px; color: var(--ink-soft); line-height: 1.55; position: relative; padding-left: 15px; margin-top: 4px; }
+table.vocab .ex::before { content: "›"; position: absolute; left: 3px; color: var(--ink-faint); font-weight: 700; }
+table.vocab .ex .kr-ex { display: block; color: var(--ink-faint); font-size: 12.5px; margin-top: 1px; }
+
 /* 3-column expression tables: Usage column widest */
 table.expr { table-layout: fixed; }
 table.expr th:nth-child(1), table.expr td:nth-child(1) { width: 26%; padding-right: 18px; }
